@@ -6,9 +6,9 @@
 
 
 
-![](README.assets/output.png)
+<div align='center'><img src='README.assets/output.png' width='50%'></div>
 
-![](README.assets/雾雨魔理沙.png)
+<div align='center'><img src='README.assets/雾雨魔理沙.png' width='50%'></div>
 
 <center>后宫王镇贴</center>
 
@@ -48,7 +48,7 @@ CSDN：https://blog.csdn.net/rvdgdsva
 
 在讲区别之前，来看看停用词是什么。下面是不调用停用词的词云，观感很差对吧。
 
-![](README.assets/无停用词.png)
+<div align='center'><img src='README.assets/无停用词.png' width='50%'></div>
 
 ### 实现方式区别
 
@@ -56,13 +56,13 @@ CSDN：https://blog.csdn.net/rvdgdsva
 
 这种方法观感很差
 
-![](README.assets/generate方法有停用词.png)
+<div align='center'><img src='README.assets/generate方法有停用词.png' width='50%'></div>
 
 【基于频率生成词云】：txt文章->分词->去空格空行->自己手动去除停用词->计算频率生成字典->调用`wordcloud.generate_from_frequencies()`->保存图
 
 这种方法是理想方法
 
-![](README.assets/generateFreq方法有停用词.png)
+<div align='center'><img src='README.assets/generateFreq方法有停用词.png' width='50%'></div>
 
 
 
