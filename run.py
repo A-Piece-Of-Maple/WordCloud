@@ -62,6 +62,6 @@ if __name__ == '__main__':
     # 词频生成词云
     wc.generate_from_frequencies(frequency)
     # 文本生成词云
-    # wc.generate(words)
+    # wc.generate(text)
 
     wc.to_file('output.png')
